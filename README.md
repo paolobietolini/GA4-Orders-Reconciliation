@@ -201,7 +201,17 @@ make destroy       # Tear down GCP resources
 
 ## Dashboard
 
-<!-- TODO: Add Looker Studio link and screenshots -->
+### Match rate over time
+
+![Match rate over time](dashboard/screenshots/match_rate.png)
+
+Daily breakdown of reconciliation outcomes as a percentage of total transactions. The blue line (matched) hovers around 70-80%, with the remaining split across missing_in_ga4, ghost_order, and revenue_mismatch categories.
+
+### Discrepancy breakdown
+
+![Discrepancy breakdown](dashboard/screenshots/discrepancy_breakdown.png)
+
+Overall distribution: 73.2% matched, 11.4% missing in GA4, 11.2% ghost orders, and 4.2% revenue mismatches.
 
 ## What I'd Improve With More Time
 
