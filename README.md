@@ -101,8 +101,8 @@ IaC: Terraform
 ### 0. Clone the repository
 
 ```bash
-git clone https://github.com/paolobietolini/zoomcamp-final-ga4-orders-reconciliation.git
-cd zoomcamp-final-ga4-orders-reconciliation
+git clone https://github.com/paolobietolini/GA4-Orders-Reconciliation.git
+cd GA4-Orders-Reconciliation
 ```
 
 ### 1. Configure your environment
