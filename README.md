@@ -200,6 +200,7 @@ make destroy       # Tear down GCP resources
 ```
 
 ## Dashboard
+[View on Looker Studio](https://lookerstudio.google.com/reporting/d50eac4d-0617-40ec-8235-5c26e2011bd9)
 
 ### Match rate over time
 
