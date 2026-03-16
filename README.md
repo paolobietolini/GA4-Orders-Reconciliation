@@ -37,16 +37,16 @@ The pipeline produces a daily reconciliation fact table and a dashboard showing 
                ▼
 ┌──────────────────────────────────────┐
 │        Spark (local / Dataproc)      │
-│  - standardize schemas              │
-│  - write cleaned parquet to GCS     │
+│  - standardize schemas               │
+│  - write cleaned parquet to GCS      |
 └──────────────┬───────────────────────┘
                │
                ▼
 ┌──────────────────────────────────────┐
 │       BigQuery (Data Warehouse)      │
-│  - external tables on GCS parquet   │
-│  - dbt staging + fact models        │
-│  - partitioned & clustered          │
+│  - external tables on GCS parquet    │
+│  - dbt staging + fact models         │
+│  - partitioned & clustered           │
 └──────────────┬───────────────────────┘
                │
                ▼
